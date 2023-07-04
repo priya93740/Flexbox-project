@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.zero{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 49px;
+    width: 1294px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f2f2f2;
+}
+.dash{
+    height: 33px;
+    width: 215px;
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    /* display: inline-block; */
+    margin: 0px 10px 0px 320px;
+}
+.one{
+    text-decoration: none;
+    color: black;
+    margin:  4px 20px 0px 0px;
+    font-size: 16px;
+    height: 38px;
+    width: auto
+    /* border: 2px solid black; */
+}
+.fine{
+    display: inline-block;
+    margin: 0px 325px 0px 0px;
+    color: white;
+    background-color: #874556;
+    height: 33px;
+    width: 64px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 6px 12px 6px 12px;
+}
+#home{
+    border: 0.2px solid none;
+    background-color: #874556;
+    height: 35px;
+    width: 70px;
+    margin-top: -3px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    color: white;
+}
+.one:hover{
+    background-color: #874556;
+    color: white;
+    width: auto;
+    height: 35px;
+    margin-top: -3px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+}
+.links{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 0px 50px 0px -60px;
+}
+.main{
+    border: 2px solid white;
+    height: 255px;
+    width: 340px;
+    margin-top: 180px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+}
+body{
+    background-color: #485461;
+}
+.division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    display: block;
+     margin-left: 17px;
+     margin-top: -15px;
+     padding: 10px 10px 10px 10px;
+     border: 2px solid inset #e3e3e3;
+     border-radius: 5px;
+     font-size: 16px;
+}
+.type{
+    font-size: 16px;
+    height: 43px;
+    width: 300px;
+    display: block;
+    font-weight: 700;
+    font-family: serif;
+    margin-left: 18px;
+    margin-top: 17px;
+}
+.start{
+    background-color: #874556;
+    margin-left: 18px;
+    margin-top: 18px;
+    height: 39px;
+    width: 80px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid ;
+}
+.castle{
+    font-size: 24px;
+    font-weight: 700px;
+    margin-left: 0px;
+}
+.fine:hover{
+    background-color: white;
+    color: black;
+}
